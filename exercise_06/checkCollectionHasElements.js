@@ -3,3 +3,21 @@
  * input: array (collection)
  * output: boolean
  */
+
+/**
+ * 
+ * @param {*} collection 
+ * @returns 
+ */
+
+
+function checkCollectionHasElements(collection) {
+    
+    if (!Array.isArray(collection)) {
+        throw new Error('Invalid input: Collection must be an array.');
+    }
+
+    return collection.length > 0;
+}
+
+export default checkCollectionHasElements;
