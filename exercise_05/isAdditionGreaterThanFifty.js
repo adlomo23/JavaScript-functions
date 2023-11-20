@@ -6,19 +6,13 @@
  */
 
 /**
- *
- * @param {*} summand1
- * @param {*} summand2
- * @returns
+ *isAdditionGreaterThanFifty
+ * @param {number} summand1
+ * @param {number} summand2
+ * @returns {boolean}
  */
 
 function isAdditionGreaterThanFifty(summand1, summand2) {
-  if (typeof summand1 !== "number" || typeof summand2 !== "number") {
-    throw new Error(
-      "Invalid input: Both summand1 and summand2 must be numbers.",
-    );
-  }
-
   const sum = summand1 + summand2;
 
   return sum >= 50;

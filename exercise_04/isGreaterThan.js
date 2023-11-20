@@ -7,15 +7,12 @@
 
 /**
  *
- * @param {*} value
- * @param {*} threshold
- * @returns
+ * @param {number} value
+ * @param {number} threshold
+ * @returns {boolean}
  */
 
 function isGreaterThan(value, threshold) {
-  if (typeof value !== "number" || typeof threshold !== "number") {
-    throw new Error("Invalid input: Both value and threshold must be numbers.");
-  }
 
   return value > threshold;
 }

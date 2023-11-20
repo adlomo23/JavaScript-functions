@@ -5,15 +5,12 @@
  */
 
 /**
- *
- * @param {*} collection
- * @returns
+ *checkCollectionHasElements
+ * @param {array} collection
+ * @returns {boolena}
  */
 
 function checkCollectionHasElements(collection) {
-  if (!Array.isArray(collection)) {
-    throw new Error("Invalid input: Collection must be an array.");
-  }
 
   return collection.length > 0;
 }

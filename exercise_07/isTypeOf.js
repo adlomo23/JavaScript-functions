@@ -8,16 +8,13 @@
  */
 
 /**
- *
+ *isTypeOf
  * @param {*} value
- * @param {*} type
- * @returns
+ * @param {boolean} type
+ * @returns 
  */
 
 function isTypeOf(value, type) {
-  if (typeof type !== "string") {
-    throw new Error("Invalid input: Type must be a string.");
-  }
 
   if (type === "array") {
     return Array.isArray(value);
