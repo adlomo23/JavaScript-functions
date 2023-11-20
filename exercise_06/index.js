@@ -1,7 +1,6 @@
 //import 'checkCollectionHasElements' and execute
 
-import checkCollectionHasElements from "./checkCollectionHasElements.js"
-
+import checkCollectionHasElements from "./checkCollectionHasElements.js";
 
 const array1 = [1, 2, 3];
 const array2 = [];

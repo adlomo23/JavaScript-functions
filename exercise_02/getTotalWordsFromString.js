@@ -11,14 +11,11 @@
  */
 
 function getTotalWordsFromString(inputString) {
-   
-    inputString = inputString.trim();
+  inputString = inputString.trim();
 
-    var words = inputString.split(/\s+/);
+  var words = inputString.split(/\s+/);
 
-    return words.length;
+  return words.length;
 }
-
-
 
 export default getTotalWordsFromString;

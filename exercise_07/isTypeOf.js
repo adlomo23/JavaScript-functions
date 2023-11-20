@@ -8,23 +8,22 @@
  */
 
 /**
- * 
- * @param {*} value 
- * @param {*} type 
- * @returns 
+ *
+ * @param {*} value
+ * @param {*} type
+ * @returns
  */
 
 function isTypeOf(value, type) {
-    
-    if (typeof type !== 'string') {
-        throw new Error('Invalid input: Type must be a string.');
-    }
+  if (typeof type !== "string") {
+    throw new Error("Invalid input: Type must be a string.");
+  }
 
-    if (type === 'array') {
-        return Array.isArray(value);
-    }
+  if (type === "array") {
+    return Array.isArray(value);
+  }
 
-    return typeof value === type;
+  return typeof value === type;
 }
 
 export default isTypeOf;

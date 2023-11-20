@@ -6,22 +6,22 @@
  */
 
 /**
- * 
- * @param {*} summand1 
- * @param {*} summand2 
- * @returns 
+ *
+ * @param {*} summand1
+ * @param {*} summand2
+ * @returns
  */
 
-
 function isAdditionGreaterThanFifty(summand1, summand2) {
+  if (typeof summand1 !== "number" || typeof summand2 !== "number") {
+    throw new Error(
+      "Invalid input: Both summand1 and summand2 must be numbers.",
+    );
+  }
 
-    if (typeof summand1 !== 'number' || typeof summand2 !== 'number') {
-        throw new Error('Invalid input: Both summand1 and summand2 must be numbers.');
-    }
+  const sum = summand1 + summand2;
 
-    const sum = summand1 + summand2;
-
-    return sum >= 50;
+  return sum >= 50;
 }
 
 export default isAdditionGreaterThanFifty;

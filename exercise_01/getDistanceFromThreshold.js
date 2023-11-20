@@ -7,13 +7,13 @@
 
 /**
  * get distance from treshold
- * @param {number} num1 
- * @param {number} num2 
+ * @param {number} num1
+ * @param {number} num2
  * @returns number
  */
 
-const getDistanceFromThreshold = function (num1, num2){
-   return num1 - num2;
-}
+const getDistanceFromThreshold = function (num1, num2) {
+  return num1 - num2;
+};
 
 export default getDistanceFromThreshold;

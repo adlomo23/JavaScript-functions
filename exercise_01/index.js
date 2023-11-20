@@ -2,4 +2,4 @@
 
 import getDistanceFromThreshold from "./getDistanceFromThreshold.js";
 
-console.log(getDistanceFromThreshold(2,4));
+console.log(getDistanceFromThreshold(2, 4));

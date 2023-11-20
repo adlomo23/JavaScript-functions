@@ -5,19 +5,17 @@
  */
 
 /**
- * 
- * @param {*} collection 
- * @returns 
+ *
+ * @param {*} collection
+ * @returns
  */
 
-
 function checkCollectionHasElements(collection) {
-    
-    if (!Array.isArray(collection)) {
-        throw new Error('Invalid input: Collection must be an array.');
-    }
+  if (!Array.isArray(collection)) {
+    throw new Error("Invalid input: Collection must be an array.");
+  }
 
-    return collection.length > 0;
+  return collection.length > 0;
 }
 
 export default checkCollectionHasElements;
