@@ -11,7 +11,6 @@
  */
 
 function generateRandomNumberInRange(limit) {
-
   const randomNumber = Math.floor(Math.random() * limit);
 
   return randomNumber;

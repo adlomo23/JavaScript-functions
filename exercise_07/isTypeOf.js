@@ -11,11 +11,10 @@
  *isTypeOf
  * @param {*} value
  * @param {boolean} type
- * @returns 
+ * @returns
  */
 
 function isTypeOf(value, type) {
-
   if (type === "array") {
     return Array.isArray(value);
   }

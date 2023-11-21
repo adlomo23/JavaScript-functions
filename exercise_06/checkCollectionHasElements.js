@@ -11,7 +11,6 @@
  */
 
 function checkCollectionHasElements(collection) {
-
   return collection.length > 0;
 }
 

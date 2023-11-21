@@ -13,7 +13,6 @@
  */
 
 function isGreaterThan(value, threshold) {
-
   return value > threshold;
 }
 
