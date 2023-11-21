@@ -3,3 +3,19 @@
  * input: string (sentence)
  * output: number
  */
+
+/**
+ * getTotalWordsFromString
+ * @param {string} sentence
+ * @returns number
+ */
+
+function getTotalWordsFromString(inputString) {
+  inputString = inputString.trim();
+
+  var words = inputString.split(/\s+/);
+
+  return words.length;
+}
+
+export default getTotalWordsFromString;

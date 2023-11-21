@@ -3,3 +3,18 @@
  * input: number (limit)
  * output: number
  */
+
+/**
+ * generateRandomNumberInRange
+ * @param {number} limit
+ * @returns {number}
+ */
+
+function generateRandomNumberInRange(limit) {
+
+  const randomNumber = Math.floor(Math.random() * limit);
+
+  return randomNumber;
+}
+
+export default generateRandomNumberInRange;
